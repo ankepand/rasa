@@ -34,7 +34,7 @@ jobs:
           fetch-depth: 0
       - name: TruffleHog Secrets Scan
         id: trufflehog
-        uses: trufflesecurity/trufflehog@047e2b4607487da3c05564ec9b198cf22a048310
+        uses: trufflesecurity/trufflehog@8df9db6eccea0d1a24a41d5f248ef759dc24993e
         continue-on-error: true
         with:
           path: ./
